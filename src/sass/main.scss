@@ -1,0 +1,23 @@
+// Base
+@import 'base/variables';
+@import 'base/base';
+@import 'base/headings';
+
+// Form
+@import 'form/input';
+@import 'form/textarea';
+
+// Layout
+@import 'layout/carousel';
+@import 'layout/section';
+@import 'layout/header';
+@import 'layout/footer';
+
+// Vendors
+@import 'vendors/bulma';
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';

@@ -1,0 +1,30 @@
+{
+    "name": "robertvanlienden/silverstripe-bulma-portfolio-theme",
+    "description": "A ready to use, complete silverstripe theme that can be used for showcasing projects. Based on Bulma CSS",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert van Lienden",
+            "homepage": "https://www.robertvanlienden.dev/"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=4.0",
+        "jonom/focuspoint": "^4.0"
+    },
+    "suggest": {
+        "robertvanlienden/silverstripe-addons": "*",
+        "wedevelopnl/silverstripe-elemental-grid": "*",
+        "silverstripe/userforms":  "*",
+        "silverstripe/blog":  "*",
+        "silverstripe/comments":  "*"
+    },
+	"extra": {
+        "expose": [
+            "bundles"
+        ]
+	}
+}

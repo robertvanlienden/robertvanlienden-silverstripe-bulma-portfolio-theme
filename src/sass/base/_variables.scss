@@ -1,0 +1,14 @@
+$primary: #0bcccc;
+$secondary: #5dec0f;
+$secondary-invert: findColorInvert($secondary) !default;
+$link: hsl(0, 0%, 4%);
+$link-hover: hsl(0, 0%, 71%);
+
+$custom-colors: (
+    "secondary":($secondary, $secondary-invert),
+);
+
+//gradients
+$header-gradient: linear-gradient(0deg, rgba(22, 201, 201, 0.01) 3%, rgba(22, 201, 201, 0.2) 3.01%, $primary 18.92%, $primary 100%);
+$page-header-gradient: linear-gradient(192deg, #0bcccc 0%, #0bcccc 14.06%, rgba(11, 204, 204, 0.1) 80.9%, rgba(11, 204, 204, 0.05) 90.17%, rgba(196, 196, 196, 0) 100%);
+$footer-gradient: linear-gradient(0deg, $primary 0%, $primary 80%, rgba(11, 204, 204, 0.6) 90%, rgba(11, 204, 204, 0.1) 100%);
