@@ -34,6 +34,7 @@ SilverStripe\View\SSViewer:
     - 'silverstripe-bulma-portfolio-theme'
     - '$default'
 ```
+* Run `composer vendor-expose`
 * Run a `dev/build flush=all` and you should be ready to go!
 
 ### Development
