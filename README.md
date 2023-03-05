@@ -1,7 +1,7 @@
 # Silverstripe Bulma Portfolio Theme
 A nice, ready-to-use, responsive [Bulma](https://bulma.io/)-based theme. Ready to start for example your portfolio website!
 
-Extendable with `robertvanlienden/silverstripe-addons` (and more themes), but also usable as stand-alone theme.
+Extendable with `robertvanlienden/silverstripe-addons` (and more modules), but also usable as stand-alone theme.
 
 ## Screenshot
 ![](screenshots/screenshot_001.png)
@@ -11,6 +11,10 @@ Extendable with `robertvanlienden/silverstripe-addons` (and more themes), but al
 ## Requirements
 ### Installation
 - Silverstripe 4
+
+### Development
+- Node Package Manager (npm)
+- Node Version Manager (nvm)
 
 ### Extendable with the following silverstripe modules
 * `robertvanlienden/silverstripe-addons`
@@ -36,10 +40,6 @@ SilverStripe\View\SSViewer:
 ```
 * Run `composer vendor-expose`
 * Run a `dev/build flush=all` and you should be ready to go!
-
-### Development
-- Node Package Manager (npm)
-- Node Version Manager (nvm)
 
 ## Developing
 This theme is easy to customize and make your own! To make changes in CSS/JS you need to do the following;
