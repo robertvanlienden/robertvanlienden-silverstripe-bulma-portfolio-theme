@@ -26,6 +26,26 @@ This module adds features like items pages, footer HTML and header logo upload.
 * `silverstripe/comments`
 
 ## Installation
+### Composer
+**Keep in mind, that if you install this theme with composer, changes you made will get overriden after the next `composer install`.**
+But, also if the theme gets updates/bugfixes etc, you can update the theme with composer.
+
+* Run `composer install robertvanlienden/silverstripe-bulma-portfolio-theme`
+* `app/_config/theme.yml` update to the following;\
+```yaml
+---
+Name: mytheme
+---
+SilverStripe\View\SSViewer:
+  themes:
+    - '$public'
+    - 'silverstripe-bulma-portfolio-theme'
+    - '$default'
+```
+* Run `composer vendor-expose`
+* Run a `dev/build flush=all` and you should be ready to go!
+
+### Manual
 * Copy the theme into the `themes` directory
 * `app/_config/theme.yml` update to the following;\
 ```yaml
