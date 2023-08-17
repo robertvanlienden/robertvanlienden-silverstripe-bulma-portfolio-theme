@@ -24,7 +24,7 @@
         </div>
         <div class="pt-6">
             <div id="navbar" class="navbar-menu is-block-desktop">
-                <div class="navbar-start">
+                <div class="navbar-start is-flex-wrap-wrap">
                     <% loop $Menu(1) %>
                         <a href="$Link" title="Go to the $Title page" class="navbar-item<% if $isCurrent %> has-text-weight-bold<% else %> has-text-weight-medium<% end_if %>">
                             $MenuTitle
